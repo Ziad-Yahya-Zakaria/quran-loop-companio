@@ -79,6 +79,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "تطبيق تفاعلي لحلقة تحفيظ القرآن الكريم من سورة الشورى إلى الحديد، مع المصحف العثماني، 3 تفاسير، وصوت الشيخ المنشاوي.",
       },
+      { property: "og:title", content: "حلقة القرآن الكريم — من الشورى إلى الحديد" },
+      { name: "twitter:title", content: "حلقة القرآن الكريم — من الشورى إلى الحديد" },
+      { name: "description", content: "Quran Companion is an interactive app for Quran memorization circles." },
+      { property: "og:description", content: "Quran Companion is an interactive app for Quran memorization circles." },
+      { name: "twitter:description", content: "Quran Companion is an interactive app for Quran memorization circles." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aecf3518-a8ef-48fe-8efb-bc05965c5e6d/id-preview-293410cc--fd896b92-8c68-4846-8081-178e215205c8.lovable.app-1782342844144.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aecf3518-a8ef-48fe-8efb-bc05965c5e6d/id-preview-293410cc--fd896b92-8c68-4846-8081-178e215205c8.lovable.app-1782342844144.png" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
